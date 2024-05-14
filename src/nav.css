@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121314;
+    padding: 0px 15px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+nav .title {
+    margin-top: 0;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(233, 160, 76);
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+}
+
+nav li {
+    display: block;
+    text-decoration: none;
+    text-align: end;
+    color: white;
+
+    padding: 10px;
+    margin: 0 18px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    list-style: none;
+}
