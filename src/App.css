@@ -7,8 +7,19 @@
   }
 }
 
+body {
+  margin: 10px;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #121314;
+}
+
+/* General App Styling */
+
 .App {
-  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .App-header {
@@ -23,16 +34,130 @@
 
 .App-body {
   align-items: center;
+  text-align: left;
   font-size: 20px;
-}
-
-.icon-text {
-  font-size: 15px;
-  margin-left: 10px;
+  color: white;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Skills Icon Styling */
+
+.icon-text {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #787474;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+}
+
+/* Projects Styling */
+
+.projects {
+  padding: 40px;
+  background-color: #121314;
+  text-align: left;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #fff
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: rgb(209, 62, 62);
+  color: #ffffff;
+  text-decoration: none;
+  font-style: bold;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.project-card a:hover {
+  transform: scale(1.1);
+}
+
+/* NavBar Styling */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121314;
+  padding: 0px 15px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+nav .title {
+  margin-top: 0;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(209, 62, 62);
+}
+
+nav ul {
+  display: flex;
+  font-size: 20px;
+}
+
+nav li {
+  display: block;
+  text-decoration: none;
+  text-align: end;
+  color: white;
+
+  padding: 10px;
+  margin: 0 18px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  list-style: none;
 }
