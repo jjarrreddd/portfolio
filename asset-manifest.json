@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f809e9f2.css",
+    "main.js": "/portfolio/static/js/main.efb9b9b6.js",
+    "static/media/coding-icon.png": "/portfolio/static/media/coding-icon.d8508db5262d4f41042d.png",
+    "index.html": "/portfolio/index.html",
+    "main.f809e9f2.css.map": "/portfolio/static/css/main.f809e9f2.css.map",
+    "main.efb9b9b6.js.map": "/portfolio/static/js/main.efb9b9b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f809e9f2.css",
+    "static/js/main.efb9b9b6.js"
+  ]
+}
