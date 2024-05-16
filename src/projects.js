@@ -29,7 +29,7 @@ const Projects = () => {
                             initial={{opacity: 0, x: 20}}
                             animate={{opacity: 1, x: 0}}
                             transition={{delay: index * 0.2, duration: 0.5}}>
-                                <h3>1. {project.title}</h3>
+                                <h3>{index + 1}. {project.title}</h3>
                                 <div className='App-body'>{project.description}</div>
                                 <a href={project.link}>Click here!</a>
                             </motion.div>

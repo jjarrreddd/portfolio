@@ -13,6 +13,8 @@ const About = () => {
                     in Computer Science, planning to look into software development!</p>
                 <p>I enjoy coding some fun and creative stuff! Besides coding, I like hanging
                     with friends and playing games!</p>
+                <p>Feel free to check out some of my skills and projects! Check out the <span style={{fontWeight: 'bold'}}>Contact </span>
+                    section to contact me!</p>
             </div>
         </motion.div>
     );

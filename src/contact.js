@@ -52,9 +52,10 @@ const Contacts = () => {
 
     return (
         <motion.div
-            initial={{opacity: 0}}
-            whileInView={{opacity: 1, transition: {delay: 0.2, duration: 0.5}}}
-            viewport={{once: false, amount: 0.5}}> 
+            initial={{opacity: 0, x: -50}}
+            whileInView={{opacity: 1, x: 0, transition: {delay: 0.2, duration: 0.5}}}
+            viewport={{once: false, amount: 0.5}}>
+            <p>Thank you!</p>
             <div className="container">
                 <form ref={form} onSubmit={sendEmail}>
                     {/* Name */}
